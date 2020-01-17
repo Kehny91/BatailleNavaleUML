@@ -6,7 +6,7 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_Ykkt4DFMEeqv4phbV7W1Tg" name="Elements">
     <packagedElement xmi:type="uml:Class" xmi:id="_165usDFMEeqv4phbV7W1Tg" name="BateauAbstrait" visibility="public" isAbstract="true">
       <generalization xmi:id="_xfon0DFNEeqv4phbV7W1Tg"/>
-      <ownedAttribute xmi:id="_3qMIwDFREeqv4phbV7W1Tg" name="NbCases" visibility="protected">
+      <ownedAttribute xmi:id="_3qMIwDFREeqv4phbV7W1Tg" name="nbCases" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3qMIwTFREeqv4phbV7W1Tg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3qMIwjFREeqv4phbV7W1Tg" value="1"/>
@@ -27,7 +27,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Wr9NIDFREeqv4phbV7W1Tg" name="Porte-Avion" visibility="public">
       <generalization xmi:id="_jm-SEDFREeqv4phbV7W1Tg" general="_165usDFMEeqv4phbV7W1Tg"/>
-      <ownedAttribute xmi:id="_bTq58DFjEeqv4phbV7W1Tg" name="NbCases" visibility="protected">
+      <ownedAttribute xmi:id="_bTq58DFjEeqv4phbV7W1Tg" name="nbCases" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bTq58TFjEeqv4phbV7W1Tg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bTq58jFjEeqv4phbV7W1Tg" value="1"/>
@@ -40,7 +40,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_YNHd4DFREeqv4phbV7W1Tg" name="Croiseur" visibility="public">
       <generalization xmi:id="_kZpFIDFREeqv4phbV7W1Tg" general="_165usDFMEeqv4phbV7W1Tg"/>
-      <ownedAttribute xmi:id="_ml4OADFjEeqv4phbV7W1Tg" name="NbCases" visibility="protected">
+      <ownedAttribute xmi:id="_ml4OADFjEeqv4phbV7W1Tg" name="nbCases" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ml4OATFjEeqv4phbV7W1Tg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ml4OAjFjEeqv4phbV7W1Tg" value="1"/>
@@ -53,7 +53,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_aeuUIDFREeqv4phbV7W1Tg" name="Contre-torpilleur" visibility="public">
       <generalization xmi:id="_k8ghoDFREeqv4phbV7W1Tg" general="_165usDFMEeqv4phbV7W1Tg"/>
-      <ownedAttribute xmi:id="_m7bAMDFjEeqv4phbV7W1Tg" name="NbCases" visibility="protected">
+      <ownedAttribute xmi:id="_m7bAMDFjEeqv4phbV7W1Tg" name="nbCases" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_m7bAMTFjEeqv4phbV7W1Tg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m7bAMjFjEeqv4phbV7W1Tg" value="1"/>
@@ -66,7 +66,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_cnVmcDFREeqv4phbV7W1Tg" name="Sous-marin" visibility="public">
       <generalization xmi:id="_nA_h4DFREeqv4phbV7W1Tg" general="_165usDFMEeqv4phbV7W1Tg"/>
-      <ownedAttribute xmi:id="_nRNqADFjEeqv4phbV7W1Tg" name="NbCases" visibility="protected">
+      <ownedAttribute xmi:id="_nRNqADFjEeqv4phbV7W1Tg" name="nbCases" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nRNqATFjEeqv4phbV7W1Tg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nRNqAjFjEeqv4phbV7W1Tg" value="1"/>
@@ -84,7 +84,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_eYcXsDFREeqv4phbV7W1Tg" name="Torpilleur" visibility="public">
       <generalization xmi:id="_ns8o8DFREeqv4phbV7W1Tg" general="_165usDFMEeqv4phbV7W1Tg"/>
-      <ownedAttribute xmi:id="_nmnSQDFjEeqv4phbV7W1Tg" name="NbCases" visibility="protected">
+      <ownedAttribute xmi:id="_nmnSQDFjEeqv4phbV7W1Tg" name="nbCases" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nmnSQTFjEeqv4phbV7W1Tg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nmnSQjFjEeqv4phbV7W1Tg" value="1"/>
@@ -235,7 +235,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_bTN5oDbXEeqCp4YQKumgdg" name="Plaisance" visibility="public">
       <generalization xmi:id="_kRli0DbXEeqCp4YQKumgdg" general="_165usDFMEeqv4phbV7W1Tg"/>
-      <ownedAttribute xmi:id="_d0C3oDbXEeqCp4YQKumgdg" name="NbCases" visibility="protected">
+      <ownedAttribute xmi:id="_d0C3oDbXEeqCp4YQKumgdg" name="nbCases" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d0C3oTbXEeqCp4YQKumgdg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d0C3ojbXEeqCp4YQKumgdg" value="1"/>
@@ -258,7 +258,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_u_QooDbmEeqCp4YQKumgdg" name="Bombe" visibility="public">
       <generalization xmi:id="_9ZgrsDbmEeqCp4YQKumgdg" general="_165usDFMEeqv4phbV7W1Tg"/>
-      <ownedAttribute xmi:id="_-89bczbmEeqCp4YQKumgdg" name="NbCases" visibility="protected">
+      <ownedAttribute xmi:id="_-89bczbmEeqCp4YQKumgdg" name="nbCases" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-89bdDbmEeqCp4YQKumgdg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-89bdTbmEeqCp4YQKumgdg" value="1"/>
@@ -344,10 +344,15 @@
         <generalization xmi:id="_9dMLcDbeEeqCp4YQKumgdg" general="_ODo1wDbeEeqCp4YQKumgdg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_z85oUDbbEeqCp4YQKumgdg" name="Tourner" visibility="public">
+        <ownedAttribute xmi:id="_cxwJoDlHEeqXwbFoWCaT0A" name="autourDe" visibility="public" type="_pganIDFQEeqv4phbV7W1Tg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cxx-0DlHEeqXwbFoWCaT0A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cxyl4DlHEeqXwbFoWCaT0A" value="1"/>
+        </ownedAttribute>
         <interfaceRealization xmi:id="_Q7kXEDbcEeqCp4YQKumgdg" client="_z85oUDbbEeqCp4YQKumgdg"/>
         <interfaceRealization xmi:id="__fhaIDbfEeqCp4YQKumgdg" client="_z85oUDbbEeqCp4YQKumgdg" supplier="_xmtNADbbEeqCp4YQKumgdg" contract="_xmtNADbbEeqCp4YQKumgdg"/>
         <ownedOperation xmi:id="_-K20oDbcEeqCp4YQKumgdg" name="Tourner">
           <ownedParameter xmi:id="_Bb4ggDbdEeqCp4YQKumgdg" name="direction" type="_ubG-QDbcEeqCp4YQKumgdg"/>
+          <ownedParameter xmi:id="_iRODADlHEeqXwbFoWCaT0A" name="autourDe" type="_pganIDFQEeqv4phbV7W1Tg"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_05t14DbbEeqCp4YQKumgdg" name="Avancer" visibility="public">
@@ -469,7 +474,7 @@
       <ownedOperation xmi:id="_fEkqoDFhEeqv4phbV7W1Tg" name="JoueurOrdinateur"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_jQgR0DFcEeqv4phbV7W1Tg" name="IJoueur" visibility="public">
-      <ownedOperation xmi:id="_tTlgUDFcEeqv4phbV7W1Tg" name="InitialiserGrille()"/>
+      <ownedOperation xmi:id="_tTlgUDFcEeqv4phbV7W1Tg" name="initialiserGrille"/>
       <ownedOperation xmi:id="_bwjNgDblEeqCp4YQKumgdg" name="getActionsDispo">
         <ownedParameter xmi:id="_hJlHsDblEeqCp4YQKumgdg" type="_ODo1wDbeEeqCp4YQKumgdg" direction="return">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hJluwDblEeqCp4YQKumgdg"/>
@@ -516,9 +521,7 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_TtUegDFhEeqv4phbV7W1Tg" name="nextJoueur">
-        <ownedParameter xmi:id="_WD8XoDFhEeqv4phbV7W1Tg" name="Joueur" type="_REeGkDFZEeqv4phbV7W1Tg"/>
-      </ownedOperation>
+      <ownedOperation xmi:id="_TtUegDFhEeqv4phbV7W1Tg" name="nextJoueur"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="__bSIsDFgEeqv4phbV7W1Tg" name="lesJoueurs " memberEnd="__bSIsTFgEeqv4phbV7W1Tg __bSvwDFgEeqv4phbV7W1Tg" navigableOwnedEnd="__bSvwDFgEeqv4phbV7W1Tg">
       <ownedEnd xmi:id="__bSIsTFgEeqv4phbV7W1Tg" name="" type="_6-hpgDFgEeqv4phbV7W1Tg" association="__bSIsDFgEeqv4phbV7W1Tg">
@@ -714,7 +717,7 @@
       <ownedOperation xmi:id="_YH3hgDbjEeqCp4YQKumgdg" name="SuperActionBuilder">
         <ownedParameter xmi:id="_fsja8DbjEeqCp4YQKumgdg" name="Build" type="_CPlmoDbjEeqCp4YQKumgdg"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_jq1OYDbjEeqCp4YQKumgdg" name="CreerAction"/>
+      <ownedOperation xmi:id="_jq1OYDbjEeqCp4YQKumgdg" name="creerAction"/>
       <ownedOperation xmi:id="_npElkDbjEeqCp4YQKumgdg" name="getAction"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_WmZHsDbjEeqCp4YQKumgdg" memberEnd="_WmZHsTbjEeqCp4YQKumgdg _WmaV0DbjEeqCp4YQKumgdg" navigableOwnedEnd="_WmaV0DbjEeqCp4YQKumgdg">
