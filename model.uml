@@ -580,49 +580,48 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_lmp0YDFdEeqv4phbV7W1Tg" name="Etats">
       <packagedElement xmi:type="uml:Interface" xmi:id="_m4nLgDFdEeqv4phbV7W1Tg" name="IEtat" visibility="public">
-        <ownedOperation xmi:id="_9uMmsDFeEeqv4phbV7W1Tg" name="okTireur"/>
-        <ownedOperation xmi:id="_9uMmsTFeEeqv4phbV7W1Tg" name="okAttaque"/>
-        <ownedOperation xmi:id="_9uMmsjFeEeqv4phbV7W1Tg" name="okTypeAttaque"/>
-        <ownedOperation xmi:id="_9uMmszFeEeqv4phbV7W1Tg" name="TimeOut"/>
+        <ownedOperation xmi:id="_9uMmsDFeEeqv4phbV7W1Tg" name="bateau_choisi"/>
+        <ownedOperation xmi:id="_9uMmsTFeEeqv4phbV7W1Tg" name="action_parametree"/>
+        <ownedOperation xmi:id="_9uMmsjFeEeqv4phbV7W1Tg" name="action_choisie"/>
+        <ownedOperation xmi:id="_9uMmszFeEeqv4phbV7W1Tg" name="time_out"/>
         <ownedOperation xmi:id="_9uMmtDFeEeqv4phbV7W1Tg" name="victoire"/>
-        <ownedOperation xmi:id="_9uMmtTFeEeqv4phbV7W1Tg" name="Fin"/>
-        <ownedOperation xmi:id="_9uMmtjFeEeqv4phbV7W1Tg" name="Attaque"/>
-        <ownedOperation xmi:id="_9uMmtzFeEeqv4phbV7W1Tg" name="Annule"/>
+        <ownedOperation xmi:id="_9uMmtTFeEeqv4phbV7W1Tg" name="fin_de_tour"/>
+        <ownedOperation xmi:id="_9uMmtzFeEeqv4phbV7W1Tg" name="annuler"/>
         <ownedOperation xmi:id="_9uMmuDFeEeqv4phbV7W1Tg" name="defaite"/>
-        <ownedOperation xmi:id="_9uMmuTFeEeqv4phbV7W1Tg" name="aTonTour"/>
+        <ownedOperation xmi:id="_9uMmuTFeEeqv4phbV7W1Tg" name="a_ton_tour"/>
+        <ownedOperation xmi:id="_L7YykDw-Eeqz794j2ABBDA" name="action_impossible"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_o5NKQDFdEeqv4phbV7W1Tg" name="AbstractEtat" visibility="public">
         <interfaceRealization xmi:id="_-_RNADFeEeqv4phbV7W1Tg" client="_o5NKQDFdEeqv4phbV7W1Tg" supplier="_m4nLgDFdEeqv4phbV7W1Tg" contract="_m4nLgDFdEeqv4phbV7W1Tg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_xhl8YDFdEeqv4phbV7W1Tg" name="Endormi" visibility="public">
         <generalization xmi:id="_3GjkUDFeEeqv4phbV7W1Tg" general="_o5NKQDFdEeqv4phbV7W1Tg"/>
-        <ownedOperation xmi:id="_fB2YsDFfEeqv4phbV7W1Tg" name="aTonTour"/>
+        <ownedOperation xmi:id="_fB2YsDFfEeqv4phbV7W1Tg" name="a_ton_tour"/>
         <ownedOperation xmi:id="_gNQb4DFfEeqv4phbV7W1Tg" name="defaite"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_yyEFwDFdEeqv4phbV7W1Tg" name="AttendAction" visibility="public">
+      <packagedElement xmi:type="uml:Class" xmi:id="_yyEFwDFdEeqv4phbV7W1Tg" name="AttendParametres" visibility="public">
         <generalization xmi:id="_2ZGocDFeEeqv4phbV7W1Tg" general="_o5NKQDFdEeqv4phbV7W1Tg"/>
         <ownedOperation xmi:id="_VPP2MDFfEeqv4phbV7W1Tg" name="timeOut"/>
-        <ownedOperation xmi:id="_aUG3MDFfEeqv4phbV7W1Tg" name="attaque"/>
-        <ownedOperation xmi:id="_biof0DFfEeqv4phbV7W1Tg" name="fin"/>
+        <ownedOperation xmi:id="_aUG3MDFfEeqv4phbV7W1Tg" name="annuler"/>
+        <ownedOperation xmi:id="_oQjt0Dw9Eeqz794j2ABBDA" name="action_parametree"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_1j1p0DFdEeqv4phbV7W1Tg" name="AttendTireur" visibility="public">
+      <packagedElement xmi:type="uml:Class" xmi:id="_1j1p0DFdEeqv4phbV7W1Tg" name="AttendBateauSource" visibility="public">
         <generalization xmi:id="_1k8noDFeEeqv4phbV7W1Tg" general="_o5NKQDFdEeqv4phbV7W1Tg"/>
         <ownedOperation xmi:id="_U9EhEDFfEeqv4phbV7W1Tg" name="timeOut"/>
         <ownedOperation xmi:id="_Yfk-gDFfEeqv4phbV7W1Tg" name="annuler"/>
-        <ownedOperation xmi:id="_ZC5G8DFfEeqv4phbV7W1Tg" name="okTireur"/>
+        <ownedOperation xmi:id="_ZC5G8DFfEeqv4phbV7W1Tg" name="bateau_choisi"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_6F9xMDFdEeqv4phbV7W1Tg" name="AttendTypeAttaque" visibility="public">
+      <packagedElement xmi:type="uml:Class" xmi:id="_6F9xMDFdEeqv4phbV7W1Tg" name="AttendAction" visibility="public">
         <generalization xmi:id="_06eHQDFeEeqv4phbV7W1Tg" general="_o5NKQDFdEeqv4phbV7W1Tg"/>
-        <ownedOperation xmi:id="_JNmpQDFfEeqv4phbV7W1Tg" name="okTypeAttaque"/>
-        <ownedOperation xmi:id="_Pr2fEDFfEeqv4phbV7W1Tg" name="timeOut"/>
+        <ownedOperation xmi:id="_JNmpQDFfEeqv4phbV7W1Tg" name="action_choisie"/>
+        <ownedOperation xmi:id="_Pr2fEDFfEeqv4phbV7W1Tg" name="time_out"/>
         <ownedOperation xmi:id="_YKthwDFfEeqv4phbV7W1Tg" name="annuler"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_-pltYDFdEeqv4phbV7W1Tg" name="AttendCible" visibility="public">
+      <packagedElement xmi:type="uml:Class" xmi:id="_-pltYDFdEeqv4phbV7W1Tg" name="RealisationAction" visibility="public">
         <generalization xmi:id="_zK3K0DFeEeqv4phbV7W1Tg" general="_o5NKQDFdEeqv4phbV7W1Tg"/>
-        <ownedOperation xmi:id="_GwZnADFfEeqv4phbV7W1Tg" name="Victoire"/>
-        <ownedOperation xmi:id="_IKQV4DFfEeqv4phbV7W1Tg" name="okAttaque"/>
-        <ownedOperation xmi:id="_S6YQkDFfEeqv4phbV7W1Tg" name="timeOut"/>
-        <ownedOperation xmi:id="_WqmZ4DFfEeqv4phbV7W1Tg" name="annuler"/>
+        <ownedOperation xmi:id="_GwZnADFfEeqv4phbV7W1Tg" name="victoire"/>
+        <ownedOperation xmi:id="_IKQV4DFfEeqv4phbV7W1Tg" name="fin_de_tour"/>
+        <ownedOperation xmi:id="_WqmZ4DFfEeqv4phbV7W1Tg" name="action_impossible"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_IlHiYDFeEeqv4phbV7W1Tg" name="Gagne" visibility="public">
         <generalization xmi:id="_yWaPEDFeEeqv4phbV7W1Tg" general="_o5NKQDFdEeqv4phbV7W1Tg"/>
@@ -734,13 +733,13 @@
       <interfaceRealization xmi:id="_WedeQDbkEeqCp4YQKumgdg" client="_7gmwsDbjEeqCp4YQKumgdg" supplier="_CPlmoDbjEeqCp4YQKumgdg" contract="_CPlmoDbjEeqCp4YQKumgdg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_-F9CUDbjEeqCp4YQKumgdg" memberEnd="_-F9CUTbjEeqCp4YQKumgdg _-F9pYjbjEeqCp4YQKumgdg" navigableOwnedEnd="_-F9pYjbjEeqCp4YQKumgdg">
-      <ownedEnd xmi:id="_-F9CUTbjEeqCp4YQKumgdg" name="absBuilders" type="_7gmwsDbjEeqCp4YQKumgdg" association="_-F9CUDbjEeqCp4YQKumgdg">
+      <ownedEnd xmi:id="_-F9CUTbjEeqCp4YQKumgdg" name="" type="_7gmwsDbjEeqCp4YQKumgdg" association="_-F9CUDbjEeqCp4YQKumgdg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-F9pYDbjEeqCp4YQKumgdg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-F9pYTbjEeqCp4YQKumgdg" value="*"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-F9pYTbjEeqCp4YQKumgdg"/>
       </ownedEnd>
-      <ownedEnd xmi:id="_-F9pYjbjEeqCp4YQKumgdg" name="iAskers" type="_-o3DcDbVEeqCp4YQKumgdg" association="_-F9CUDbjEeqCp4YQKumgdg">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-F-QcDbjEeqCp4YQKumgdg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-F-QcTbjEeqCp4YQKumgdg" value="*"/>
+      <ownedEnd xmi:id="_-F9pYjbjEeqCp4YQKumgdg" name="iAsker" type="_-o3DcDbVEeqCp4YQKumgdg" association="_-F9CUDbjEeqCp4YQKumgdg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-F-QcDbjEeqCp4YQKumgdg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-F-QcTbjEeqCp4YQKumgdg" value="1"/>
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Np7GgDbkEeqCp4YQKumgdg" name="DeplacementBuilder" visibility="public">
